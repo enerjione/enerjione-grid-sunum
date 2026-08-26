@@ -138,7 +138,7 @@ const EN = {
   'YÖN BİLGİLİ ALGILAMA': 'DIRECTIONAL DETECTION',
   'Kısa devre, toprak arızası ve gerilim kaybı ayrı ayrı': 'Short circuit, earth fault and loss of voltage, each separately',
   '360° OPTİK GÖSTERGE': '360° OPTICAL INDICATOR',
-  'Gündüz 50 m, gece 150 m mesafeden görünür': 'Visible from 50 m by day, 150 m at night',
+  'Gece ve gündüz yüksek görünürlük': 'High visibility day and night',
   'ÇİFT KANAL': 'DUAL CHANNEL',
   '868 MHz yerel telsiz + 4G LTE CAT-M1 / 450 MHz': '868 MHz local radio + 4G LTE CAT-M1 / 450 MHz',
   'YERDEN MONTAJ': 'GROUND-LEVEL FITTING',

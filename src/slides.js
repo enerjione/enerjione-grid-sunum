@@ -178,7 +178,7 @@ export const slides = [
     body: 'Enerjili hatta, faz iletkeninin üzerine doğrudan kelepçelenir; montaj yerden yapılabilir. Kısa devreyi yön bilgisiyle ve toprak arızasını yerinde algılar, sonucu hem 360° optik göstergeyle hem de telsizle direk üstü kite bildirir.',
     items: [
       { icon: 'AlertTriangle', title: 'YÖN BİLGİLİ ALGILAMA', text: 'Kısa devre, toprak arızası ve gerilim kaybı ayrı ayrı' },
-      { icon: 'Crosshair', title: '360° OPTİK GÖSTERGE', text: 'Gündüz 50 m, gece 150 m mesafeden görünür' },
+      { icon: 'Crosshair', title: '360° OPTİK GÖSTERGE', text: 'Gece ve gündüz yüksek görünürlük' },
       { icon: 'Network', title: 'ÇİFT KANAL', text: '868 MHz yerel telsiz + 4G LTE CAT-M1 / 450 MHz' },
       { icon: 'Wrench', title: 'YERDEN MONTAJ', text: 'Enerjili hatta, 33 mm’ye kadar iletken çapı' },
     ],
