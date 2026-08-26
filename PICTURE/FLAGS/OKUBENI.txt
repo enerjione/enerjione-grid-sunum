@@ -1,0 +1,13 @@
+Bayrak SVG dosyalarini bu klasore su isimlerle koyun:
+
+  tr.svg   Turkiye
+  gb.svg   Ingiltere  (EN)
+  de.svg   Almanya
+  fr.svg   Fransa
+  es.svg   Ispanya
+  ru.svg   Rusya
+  az.svg   Azerbaycan
+  sa.svg   Suudi Arabistan  (AR)
+
+PNG de olur (tr.png gibi). Dosya konulmayan dil icin
+gomulu basit cizim kullanilmaya devam eder.

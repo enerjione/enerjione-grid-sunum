@@ -1,0 +1,8 @@
+Diger EnerjiOne markalarinin simgelerini bu klasore koyun.
+
+Dosya adi otomatik olarak etiket olur:
+  e1_solar.png      ->  E1 SOLAR
+  e1-scada.png      ->  E1 SCADA
+  1-e1_grid.png     ->  E1 GRID   (bastaki numara siralama icindir, etikette gorunmez)
+
+PNG / SVG / WEBP olur. Dosya koymazsaniz serit hic gorunmez.

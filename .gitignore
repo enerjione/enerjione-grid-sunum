@@ -1,0 +1,19 @@
+# bagimliliklar
+node_modules/
+
+# uretilen ciktilar (GitHub Actions her seferinde yeniden uretir)
+dist/
+SUNUM/
+release/
+build/output/
+
+# 56 MB'lik sikistirilmamis orijinal model — sunumda kullanilmiyor.
+# Yedeklemek isterseniz bu satiri silin (GitHub 50 MB uzeri dosyalar icin uyarir).
+_orijinal_modeller/
+
+# isletim sistemi / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

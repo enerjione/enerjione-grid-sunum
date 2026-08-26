@@ -1,0 +1,58 @@
+name: Sunumu GitHub Pages'e yayınla
+
+# main dalına her push'ta sunum yeniden derlenir ve yayına alınır.
+# Actions sekmesinden elle de çalıştırılabilir.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Aynı anda tek yayın çalışsın; devam eden yayın iptal edilmesin.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  derle:
+    name: Derle
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: Node.js kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Bağımlılıkları yükle
+        run: npm ci
+
+      - name: Sunumu derle
+        run: npm run build
+
+      - name: Pages ayarlarını oku
+        uses: actions/configure-pages@v5
+
+      - name: Çıktıyı yükle
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  yayinla:
+    name: Yayınla
+    needs: derle
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - name: GitHub Pages'e gönder
+        id: pages
+        uses: actions/deploy-pages@v4
