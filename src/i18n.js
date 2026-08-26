@@ -211,12 +211,12 @@ const EN = {
 
   /* ---------------- S6 — arıza bölgesi ---------------- */
   'ARIZA BÖLGESİ': 'FAULT SECTION',
-  'Son algılayan cihaz ile ilk\nalgılamayan cihaz arasındaki kesim.':
-    'From the last device that saw the fault\nto the first that did not.',
-  'Aranacak alan tüm hat değil, yalnızca bu iki nokta arasıdır. Sistem bu kesimin uzunluğunu ve hangi direkler arasında kaldığını doğrudan verir.':
-    'The area to search is not the whole line, only what lies between these two points. The system gives you the length of that span and the poles it falls between.',
-  'SON ALGILAYAN': 'LAST TO DETECT',
-  'İLK ALGILAMAYAN': 'FIRST NOT TO DETECT',
+  'Arızayı ilk gören cihaz ile\ngörmeyen ilk cihaz arasındaki kesim.':
+    'From the first device that sees the fault\nto the first that does not.',
+  'Arızayı gören cihazlar kırmızı yanar, görmeyenler yeşil kalır. Aranacak alan tüm hat değil, yalnızca bu iki cihazın arasıdır; sistem bu kesimin uzunluğunu ve hangi direkler arasında kaldığını doğrudan verir.':
+    'Devices that see the fault turn red, those that do not stay green. The area to search is not the whole line, only what lies between these two devices; the system gives you the length of that span and the poles it falls between.',
+  'ARIZAYI İLK GÖREN': 'FIRST TO SEE THE FAULT',
+  'ARIZAYI GÖRMEYEN': 'DOES NOT SEE IT',
   'ARIZA VAR': 'FAULT',
   'ARIZA YOK': 'NO FAULT',
 
