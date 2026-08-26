@@ -76,6 +76,24 @@ tarayıcıda saklanır. Sunumun **hangi dille açılacağını** sabitlemek içi
 
 ---
 
+## Görsel boyutları
+
+Arka plan görselleri 7680x4320 PNG olarak çekildi (her biri ~24 MB). İnternet
+üzerinden ilk açılışı hızlandırmak için 5120 piksel genişliğinde WebP'ye
+çevrildiler — gözle fark edilmeyen bir kayıpla **~16 kat** küçüldüler
+(48 MB -> 3 MB). Orijinaller `_orijinal_gorseller/` klasöründe duruyor.
+
+Yeni bir büyük görseli aynı şekilde çevirmek için orijinali
+`_orijinal_gorseller/` içine koyup:
+
+```bash
+node tools/webp.mjs deneme   # önce boyutlara bakın
+node tools/webp.mjs          # PICTURE/ içine .webp yazar
+```
+
+PNG'yi `PICTURE/` içinde bırakmayın; görsel arama önce PNG'yi bulur ve WebP
+kullanılmaz.
+
 ## Depoda olmayanlar
 
 `.gitignore` şunları dışarıda tutar: `node_modules/`, üretilen çıktılar
