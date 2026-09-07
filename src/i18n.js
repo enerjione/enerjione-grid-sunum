@@ -1,5 +1,5 @@
 /* ==================================================================
-   DİL DESTEĞİ — Türkçe / English
+   DİL DESTEĞİ - Türkçe / English
 
    Sunumun kaynak dili Türkçedir. Aşağıdaki sözlük, Türkçe metni
    İngilizce karşılığıyla eşler. Ekranda görünen her metin t() veya
@@ -74,7 +74,7 @@ export function deepT(v) {
 }
 
 /* ==================================================================
-   SÖZLÜK — Türkçe : English
+   SÖZLÜK - Türkçe : English
    ================================================================== */
 
 const EN = {
@@ -107,7 +107,7 @@ const EN = {
   'İletişim': 'Contact',
   'Kaydırın': 'Scroll',
 
-  /* ---------------- S1 — giriş ---------------- */
+  /* ---------------- S1 - giriş ---------------- */
   'Arızayı aramayın.\nDoğru noktaya gidin.': 'Skip the search.\nGo straight to it.',
   'Orta gerilim hatlarında arıza bölgesini daraltan ve saha ekibini doğru noktaya yönlendiren operasyon platformu.':
     'An operations platform that narrows the fault section on medium-voltage lines and sends the field crew directly to the right spot.',
@@ -118,7 +118,7 @@ const EN = {
   'OUTBOUND\nENTEGRASYON': 'OUTBOUND\nINTEGRATION',
   'KURUMSAL\nGÜVENLİK': 'ENTERPRISE\nSECURITY',
 
-  /* ---------------- S2 — cihaz yerleşimi ---------------- */
+  /* ---------------- S2 - cihaz yerleşimi ---------------- */
   'SAHA DONANIMI': 'FIELD HARDWARE',
   'Cihazlar doğrudan\nhattın üzerine kelepçelenir.': 'Clamped directly onto\nthe line itself.',
   'Her faz iletkenine ayrı bir cihaz takılır ve hat boyunca kesintisiz bir algılama zinciri oluşur. Montaj enerji kesilmeden, yerden yapılır; cihaz enerjisini de hattın kendisinden alır.':
@@ -130,7 +130,7 @@ const EN = {
   'ALGILAMA ZİNCİRİ': 'DETECTION CHAIN',
   'Hat boyunca kesintisiz izleme': 'Continuous monitoring along the line',
 
-  /* ---------------- S3 — Smart Navigator 2.0 ---------------- */
+  /* ---------------- S3 - Smart Navigator 2.0 ---------------- */
   'SAHA DONANIMI · SMART NAVIGATOR 2.0': 'FIELD HARDWARE · SMART NAVIGATOR 2.0',
   'Smart Navigator 2.0\nhavai hat arıza gösterge cihazı.': 'Smart Navigator 2.0\noverhead line fault indicator.',
   'Enerjili hatta, faz iletkeninin üzerine doğrudan kelepçelenir; montaj yerden yapılabilir. Kısa devreyi yön bilgisiyle ve toprak arızasını yerinde algılar, sonucu hem 360° optik göstergeyle hem de telsizle direk üstü kite bildirir.':
@@ -152,13 +152,13 @@ const EN = {
   'Reset: manuel (mıknatıs / USB), uzaktan veya otomatik. Sabit eşik seçeneğiyle 2.000 A’e kadar.':
     'Reset: manual (magnet / USB), remote or automatic. Up to 2,000 A with the fixed-threshold option.',
 
-  /* ---------------- S4 — Pole Master Kit ---------------- */
+  /* ---------------- S4 - Pole Master Kit ---------------- */
   'SAHA DONANIMI · POLE MASTER KIT': 'FIELD HARDWARE · POLE MASTER KIT',
   'Pole Master Kit\ndirek üstü toplayıcı ve haberleşme kiti.': 'Pole Master Kit\npole-top collector and comms unit.',
   'Direğe monte edilir, kendi enerjisini güneş panelinden üretir. Çevresindeki cihazlardan gelen veriyi toplar ve şifreli olarak merkeze taşır; bağlantı koptuğunda veriyi sahada tamponlar.':
     'Mounted on the pole and powered by its own solar panel. It collects data from the surrounding devices and carries it to the centre encrypted; if the link drops, it buffers the data in the field.',
   '9 CİHAZA KADAR': 'UP TO 9 DEVICES',
-  'Üç ölçüm setini, yani dokuz cihazı tek noktada toplar': 'Collects three measurement sets — nine devices — at a single point',
+  'Üç ölçüm setini, yani dokuz cihazı tek noktada toplar': 'Collects three measurement sets - nine devices - at a single point',
   'SOLAR BESLEME': 'SOLAR POWER',
   '5 A altındaki hatlarda güneş paneli ve batarya ile': 'Solar panel and battery on lines below 5 A',
   'MERKEZE İLETİM': 'UPLINK TO CENTRE',
@@ -174,10 +174,10 @@ const EN = {
   'POLE MASTER KIT': 'POLE MASTER KIT',
   'SMART NAVIGATOR LC': 'SMART NAVIGATOR LC',
 
-  /* ---------------- S5 — kapasite ---------------- */
+  /* ---------------- S5 - kapasite ---------------- */
   'Tek toplayıcı,\nüç set, dokuz cihaz.': 'One collector,\nthree sets, nine units.',
   'Bir ölçüm seti hattın üç fazını izleyen üç cihazdan oluşur. Direk üstündeki tek bir Pole Master Kit, üç ayrı ölçüm setini yani toplam dokuz cihazı birden toplar ve merkeze tek kanaldan iletir.':
-    'A measurement set consists of three devices monitoring the three phases of the line. A single pole-mounted Pole Master Kit collects three separate sets — nine devices in total — and forwards them to the centre over one channel.',
+    'A measurement set consists of three devices monitoring the three phases of the line. A single pole-mounted Pole Master Kit collects three separate sets - nine devices in total - and forwards them to the centre over one channel.',
   'ÜÇ FAZ, ÜÇ CİHAZ': 'THREE PHASES, THREE DEVICES',
   'Her ölçüm setinde R, S ve T fazı ayrı izlenir': 'Phases R, S and T are monitored separately in each set',
   'TEK KANAL': 'SINGLE CHANNEL',
@@ -209,7 +209,7 @@ const EN = {
   'Güneş paneli ile beslenir': 'Solar powered',
   'Şebeke bağlantısı gerektirmez': 'No mains supply needed',
 
-  /* ---------------- S6 — arıza bölgesi ---------------- */
+  /* ---------------- S6 - arıza bölgesi ---------------- */
   'ARIZA BÖLGESİ': 'FAULT SECTION',
   'Arızayı ilk gören cihaz ile\ngörmeyen ilk cihaz arasındaki kesim.':
     'From the first device that sees the fault\nto the first that does not.',
@@ -220,7 +220,7 @@ const EN = {
   'ARIZA VAR': 'FAULT',
   'ARIZA YOK': 'NO FAULT',
 
-  /* ---------------- S7 — arıza tipi ---------------- */
+  /* ---------------- S7 - arıza tipi ---------------- */
   'ARIZA SINIFLANDIRMA': 'FAULT CLASSIFICATION',
   'Her arıza aynı değildir;\nsistem tipini de ayırt eder.': 'Not all faults are alike;\nthe system tells them apart.',
   'Kalıcı ve geçici arızalar, faz-faz ile faz-toprak arızaları ayrı sınıflandırılır.':
@@ -240,7 +240,7 @@ const EN = {
   'Yıldırım kaynaklı atlama': 'Lightning-induced flashover',
   'Dala sürtünme': 'Branch brushing the line',
 
-  /* ---------------- S8 — veri aktarımı ---------------- */
+  /* ---------------- S8 - veri aktarımı ---------------- */
   'VERİ AKTARIMI': 'DATA TRANSFER',
   'Saha verisi kablosuz\nolarak merkeze akar.': 'Field data flows to the\ncentre over the air.',
   'Ölçümler, olaylar ve cihaz sağlık bilgileri şifreli olarak aktarılır. Merkez, müşterinin kendi sunucusu ya da EnerjiOne bulutu olabilir; bağlantı koptuğunda veri sahada tamponlanır.':
@@ -262,7 +262,7 @@ const EN = {
   'HARİTA VE SAHA OPERASYONU': 'MAP & FIELD OPERATIONS',
   'Arıza bölgesini harita üzerinde tek bakışta görün.': 'See the fault section on the map at a glance.',
   'Aktif arıza kaydı; konum, etkilenen hat bölümü, olay anındaki ölçümler ve sorumlu ekip bilgisiyle birlikte tek ekranda yönetilir.':
-    'The active fault record — location, affected line section, readings at the moment of the event and the responsible crew — is managed on a single screen.',
+    'The active fault record - location, affected line section, readings at the moment of the event and the responsible crew - is managed on a single screen.',
   'HARİTA': 'MAP',
   'Sağlıklı ve arızalı hat bölümleri ayrıştırılır': 'Healthy and faulted line sections are told apart',
   'ATAMA': 'ASSIGNMENT',
@@ -317,7 +317,7 @@ const EN = {
   'Alarm, olay, konfigürasyon ve rapor aynı cihazda': 'Alarms, events, configuration and reports on one device',
 
   'MERKEZİ ALARM YÖNETİMİ': 'CENTRAL ALARM MANAGEMENT',
-  'Alarmı görmekten öte, müdahale sürecini yönetin.': 'Go beyond seeing the alarm — manage the response.',
+  'Alarmı görmekten öte, müdahale sürecini yönetin.': 'Go beyond seeing the alarm - manage the response.',
   'Öncelik, durum, sorumlu kullanıcı, süre, yorum ve tekrar sıklığı tek alarm kaydı altında izlenir; hiçbir işlem görünmez kalmaz.':
     'Priority, status, assignee, duration, comments and recurrence are tracked under a single alarm record; no action goes unseen.',
   'Alarm oluşur': 'Alarm is raised',
@@ -447,8 +447,8 @@ const EN = {
   'EnerjiOne Grid · 1,2B görüntülenme · 10:44': 'EnerjiOne Grid · 1.2K views · 10:44',
   'kısa mesaj': 'text message',
   'Kesim: 272 m': 'Section: 272 m',
-  '[Kritik] Haberleşme arızası — SN-00014': '[Critical] Communication failure — SN-00014',
-  '⚠ Yeni Alarm — Kritik': '⚠ New Alarm — Critical',
+  '[Kritik] Haberleşme arızası - SN-00014': '[Critical] Communication failure - SN-00014',
+  '⚠ Yeni Alarm - Kritik': '⚠ New Alarm - Critical',
   'Haberleşme arızası': 'Communication failure',
   'Cihaz haberleşmesinde sorun var.': 'There is a problem with the device link.',
   'ANA HAT': 'MAIN LINE',
@@ -505,7 +505,7 @@ const EN = {
   'ÇOK DİLLİ ARAYÜZ': 'MULTILINGUAL INTERFACE',
   'Ekip hangi dili konuşuyorsa\nsistem de onu konuşur.': 'The system speaks\nyour crew’s language.',
   'Arayüz dili kullanıcı bazında seçilir; aynı kurulumda farklı kullanıcılar farklı dilde çalışabilir. Raporlar da seçilen dilde üretilir. Yeni bir dil eklemek yalnızca çeviri dosyası eklemekten ibarettir, yazılım değişikliği gerektirmez.':
-    'The interface language is chosen per user, so different people can work in different languages on the same installation. Reports are produced in the selected language too. Adding a new language means adding a translation file — no software change required.',
+    'The interface language is chosen per user, so different people can work in different languages on the same installation. Reports are produced in the selected language too. Adding a new language means adding a translation file - no software change required.',
   'KARMA EKİPLER': 'MIXED TEAMS',
   'Yerel ve yabancı ekipler aynı sistemde': 'Local and international crews on one system',
   'ÇIKTILAR DA ÇEVİRİLİ': 'OUTPUTS TRANSLATED TOO',
@@ -530,11 +530,15 @@ const EN = {
   'HOT STANDBY': 'HOT STANDBY',
   'İsteğe bağlı yedekli kurulum, otomatik devralma': 'Optional redundant installation with automatic failover',
   'AYNI KURULUM, BÜYÜYEN ÖLÇEK': 'SAME INSTALLATION, GROWING SCALE',
-  'PİLOT HAT': 'PILOT LINE',
-  'İLÇE': 'DISTRICT',
-  'GENİŞLETİLMİŞ': 'EXTENDED',
-  'gateway eklenerek': 'by adding gateways',
-  'HOT STANDBY — İSTEĞE BAĞLI YEDEKLİ KURULUM': 'HOT STANDBY — OPTIONAL REDUNDANT INSTALLATION',
+  'HOT STANDBY - PRO VE ENTERPRISE PAKETLERİNDE ÖNERİLİR': 'HOT STANDBY - RECOMMENDED ON PRO AND ENTERPRISE',
+  'Bağlantı noktası': 'Connection points',
+  'Saha cihazı': 'Field devices',
+  'Yedeklilik': 'Redundancy',
+  'Opsiyonel': 'Optional',
+  'Önerilir': 'Recommended',
+  'Hot standby': 'Hot standby',
+  'Her bağlantı noktası bir toplayıcıdır ve 3 – 9 saha cihazı taşır.':
+    'Each connection point is one collector and carries 3 – 9 field devices.',
   'AKTİF SUNUCU': 'ACTIVE SERVER',
   'tüm trafiği karşılar': 'handles all traffic',
   'ÇALIŞIYOR': 'RUNNING',
@@ -575,7 +579,7 @@ const EN = {
   'AÇIK ENTEGRASYON KATMANI': 'OPEN INTEGRATION LAYER',
   'Olay verisini ihtiyacınız olan yere taşıyın.': 'Take event data wherever you need it.',
   'Tek olay kaynağı, hazır çıkışlar. SCADA telekontrolden otomasyon ve bildirim kanallarına kadar.':
-    'One event source, ready-made outputs — from SCADA telecontrol to automation and notification channels.',
+    'One event source, ready-made outputs - from SCADA telecontrol to automation and notification channels.',
   'On-Prem': 'On-prem',
   'Gerçek zamanlı': 'Real time',
   'Denetlenebilir': 'Auditable',

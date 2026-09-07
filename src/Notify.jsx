@@ -76,7 +76,7 @@ function ChanMark({ id, images = {} }) {
   )
 }
 
-/* örnek arıza kaydı — gerçek bildirim biçimiyle aynı */
+/* örnek arıza kaydı - gerçek bildirim biçimiyle aynı */
 const F = {
   line: 'ANKARA / BR-4',
   span: 'Direk #1 – Direk #2',
@@ -206,10 +206,10 @@ function MailCard() {
   return (
     <div className="mailc">
       <div className="mailc__bar">
-        <span className="mailc__subj">{t18('[Kritik] Haberleşme arızası — SN-00014')}</span>
+        <span className="mailc__subj">{t18('[Kritik] Haberleşme arızası - SN-00014')}</span>
       </div>
       <div className="mailc__body">
-        <div className="mailc__alert">{t18('⚠ Yeni Alarm — Kritik')}</div>
+        <div className="mailc__alert">{t18('⚠ Yeni Alarm - Kritik')}</div>
         <div className="mailc__inner">
           <b className="mailc__t">{t18('Haberleşme arızası')}</b>
           <em className="mailc__s">{t18('Cihaz haberleşmesinde sorun var.')}</em>

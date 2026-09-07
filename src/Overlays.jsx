@@ -63,7 +63,7 @@ export function Measure({ cfg }) {
 }
 
 /* ------------------------------------------------------------------
-   2) OUTBOUND HABERLEŞME — merkezden dış sistemlere
+   2) OUTBOUND HABERLEŞME - merkezden dış sistemlere
 ------------------------------------------------------------------- */
 const CHANNELS = [
   { label: 'SCADA', y: 40 },

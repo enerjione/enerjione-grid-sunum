@@ -1,7 +1,7 @@
 import { deepT, t as t18 } from './i18n'
 import { useState, useEffect, useRef } from 'react'
 
-/* gercek bayraklar — flag-icons paketinden (yalnizca kullanilanlar paketlenir) */
+/* gercek bayraklar - flag-icons paketinden (yalnizca kullanilanlar paketlenir) */
 import flagTR from 'flag-icons/flags/4x3/tr.svg'
 import flagGB from 'flag-icons/flags/4x3/gb.svg'
 import flagDE from 'flag-icons/flags/4x3/de.svg'
@@ -19,7 +19,7 @@ const FLAG_SRC = {
 import { Globe, Check, UserCog, FileText, Languages, Radio, Layers, Smartphone, UserRound, Mail, Phone } from 'lucide-react'
 
 /* ==================================================================
-   1) POLE MASTER KAPASİTESİ — 3 set / 9 cihaz
+   1) POLE MASTER KAPASİTESİ - 3 set / 9 cihaz
    Bir toplayıcı, üç ölçüm noktasının üç fazını birden toplar.
    ================================================================== */
 
@@ -91,7 +91,7 @@ export function PoleCapacity({ images = {} }) {
           </span>
         ))}
 
-        {/* merkez: Pole Master Kit — dogrudan yerlestirilmis */}
+        {/* merkez: Pole Master Kit - dogrudan yerlestirilmis */}
         <div className="pmk__hub" style={ppct(PHUB.x, PHUB.y)}>
           <span className="pmk__halo" />
           <span className="pmk__ring" />
@@ -105,7 +105,7 @@ export function PoleCapacity({ images = {} }) {
           </span>
         </div>
 
-        {/* uc olcum seti — kartsiz */}
+        {/* uc olcum seti - kartsiz */}
         {CLUSTERS.map((c, i) => (
           <div className={'lcset lcset--' + c.pos} key={c.id} style={{ ...ppct(c.x, c.y), '--i': i }}>
             <span className="lcset__row">
@@ -198,7 +198,7 @@ export function LanguagePanel({ images = {} }) {
 }
 
 /* ==================================================================
-   3) MOBIL UYGULAMA — telefon mockup, ekranlar tiklanarak degisir
+   3) MOBIL UYGULAMA - telefon mockup, ekranlar tiklanarak degisir
    ================================================================== */
 
 export function MobileApp({ images = {}, shots = [] }) {
@@ -260,14 +260,14 @@ export function MobileApp({ images = {}, shots = [] }) {
 }
 
 /* ==================================================================
-   4) RAPOR DESTESI — kartlar ust uste, tiklanan one cikar
+   4) RAPOR DESTESI - kartlar ust uste, tiklanan one cikar
    ================================================================== */
 
 const CSV_ROWS = [
   ['25.08.2026 10:11', 'SN-00001', 'KALICI', '1.240 m'],
-  ['25.08.2026 09:47', 'SN-00014', 'GEÇİCİ', '—'],
+  ['25.08.2026 09:47', 'SN-00014', 'GEÇİCİ', '-'],
   ['24.08.2026 22:03', 'SN-00008', 'KALICI', '820 m'],
-  ['24.08.2026 18:35', 'SN-00021', 'GEÇİCİ', '—'],
+  ['24.08.2026 18:35', 'SN-00021', 'GEÇİCİ', '-'],
   ['24.08.2026 11:12', 'SN-00003', 'KALICI', '2.150 m'],
 ]
 
@@ -470,7 +470,7 @@ export function PresenterCard({ defaults = {} }) {
 }
 
 /* ==================================================================
-   7) ANA SAYFA LOGO SERIDI — gercek logolar + gomulu simgeler
+   7) ANA SAYFA LOGO SERIDI - gercek logolar + gomulu simgeler
    ================================================================== */
 
 function StripGlyph({ id }) {

@@ -10,7 +10,7 @@ import {
 import { faviconUrl } from './slides'
 
 /* ==================================================================
-   1) KULLANICI ROLLERİ — yetki matrisi + ekip / bölge yönetimi
+   1) KULLANICI ROLLERİ - yetki matrisi + ekip / bölge yönetimi
    ================================================================== */
 
 const CAPS = ['KURULUM', 'KONFİG.', 'MÜDAHALE', 'EKİP / BÖLGE', 'RAPOR', 'KULLANICI']
@@ -94,11 +94,14 @@ export function RoleMatrix() {
    2) ÖLÇEKLENEBİLİRLİK + HOT STANDBY
    ================================================================== */
 
-const STEPS = [
-  { stage: 'PİLOT HAT', cap: '400', gw: 1, h: 32 },
-  { stage: 'İLÇE', cap: '800', gw: 2, h: 58 },
-  { stage: 'BÖLGE', cap: '1.000', gw: 3, h: 79 },
-  { stage: 'GENİŞLETİLMİŞ', cap: '1.000+', gw: 0, h: 92, more: true },
+/* Sunucu paketleri. Kapasite baglanti noktasi cinsindendir; bir nokta
+   bir toplayicidir ve 3-9 saha cihazi tasir (uc faz = uc cihaz, uc set). */
+const TIERS = ['PILOT', 'STANDARD', 'PRO', 'ENTERPRISE']
+
+const CAP_ROWS = [
+  { k: 'Bağlantı noktası', v: ['100', '300', '500', '1.000'] },
+  { k: 'Saha cihazı',      v: ['300 – 900', '900 – 2.700', '1.500 – 4.500', '3.000 – 9.000'] },
+  { k: 'Yedeklilik',       v: ['-', 'Opsiyonel', 'Önerilir', 'Hot standby'] },
 ]
 
 const HA_STEPS = [
@@ -117,34 +120,38 @@ export function ScaleDiagram() {
           <b className="grow__hi">{t18('AYNI KURULUM, BÜYÜYEN ÖLÇEK')}</b>
         </div>
 
-        <div className="grow__chart">
-          {deepT(STEPS).map((st, i) => (
-            <div
-              className={'gcol' + (st.more ? ' gcol--more' : '')}
-              key={st.stage}
-              style={{ '--i': i, '--h': st.h + '%' }}
-            >
-              <span className="gcol__bar">
-                <span className="gcol__cap">
-                  <b>{st.cap}</b>
-                  <em>{t18('cihaz')}</em>
+        <div className="caps">
+          <div className="caps__head">
+            <span className="caps__rk" />
+            {TIERS.map((tier, i) => (
+              <span className={'caps__th' + (i === TIERS.length - 1 ? ' is-top' : '')} key={tier}>
+                {tier}
+              </span>
+            ))}
+          </div>
+
+          {deepT(CAP_ROWS).map((r, ri) => (
+            <div className="caps__row" key={r.k} style={{ '--i': ri }}>
+              <span className="caps__rk">{r.k}</span>
+              {r.v.map((v, i) => (
+                <span className={'caps__cell' + (i === r.v.length - 1 ? ' is-top' : '')} key={i}>
+                  {v}
                 </span>
-                <i />
-              </span>
-              <span className="gcol__gw">
-                <b>{st.stage}</b>
-                <em>{st.more ? 'gateway eklenerek' : st.gw + ' gateway'}</em>
-              </span>
+              ))}
             </div>
           ))}
         </div>
+
+        <span className="caps__note">
+          {t18('Her bağlantı noktası bir toplayıcıdır ve 3 – 9 saha cihazı taşır.')}
+        </span>
       </div>
 
       {/* --- sureklilik --- */}
       <div className="hax">
         <div className="hax__head">
           <span className="hrule" />
-          <b className="hax__hi">{t18('HOT STANDBY — İSTEĞE BAĞLI YEDEKLİ KURULUM')}</b>
+          <b className="hax__hi">{t18('HOT STANDBY - PRO VE ENTERPRISE PAKETLERİNDE ÖNERİLİR')}</b>
         </div>
 
         <div className="ha">
@@ -197,7 +204,7 @@ export function ScaleDiagram() {
 }
 
 /* ==================================================================
-   3) SİBER GÜVENLİK — katmanlı savunma
+   3) SİBER GÜVENLİK - katmanlı savunma
    ================================================================== */
 
 const LAYERS = [

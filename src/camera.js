@@ -1,4 +1,4 @@
-/* Kamera matematiği — görsel üzerinde odak noktası + yakınlaşma */
+/* Kamera matematiği - görsel üzerinde odak noktası + yakınlaşma */
 
 export const clamp = (v, a, b) => (v < a ? a : v > b ? b : v)
 export const lerp = (a, b, t) => a + (b - a) * t
@@ -70,7 +70,7 @@ export function project(cam, x, y) {
 }
 
 /* ard arda aynı kaynağı kullanan slaytları tek katmanda birleştir.
-   srcs[i] = { url, video }  — video ise scroll ile kare kare sürülür. */
+   srcs[i] = { url, video }  - video ise scroll ile kare kare sürülür. */
 export function buildGroups(slides, srcs) {
   const groups = []
   slides.forEach((s, i) => {

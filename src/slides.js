@@ -1,5 +1,5 @@
 /* ==================================================================
-   ENERJIONE GRID — SUNUM İÇERİĞİ
+   ENERJIONE GRID - SUNUM İÇERİĞİ
 
    GÖRSELLER
      PICTURE klasörüne (ve alt klasörlerine) koyduğunuz her görsel
@@ -128,7 +128,7 @@ export function mobileShots() {
 
 export const slides = [
   /* =================================================================
-     BÖLÜM 1 — SAHA
+     BÖLÜM 1 - SAHA
      ================================================================= */
   {
     id: 'hero',
@@ -325,7 +325,7 @@ export const slides = [
   },
 
   /* =================================================================
-     BÖLÜM 2 — YAZILIM  (ekran görüntüleri 3B monitör içinde)
+     BÖLÜM 2 - YAZILIM  (ekran görüntüleri 3B monitör içinde)
      ================================================================= */
   {
     id: 's01',
@@ -601,7 +601,7 @@ export const slides = [
     body: 'EnerjiOne Grid bir dashboard değil; arıza bilgisini saha aksiyonuna dönüştüren operasyon platformudur. Canlı demo ve kendi hat topolojinize özel saha senaryosu için EnerjiOne ekibiyle iletişime geçin.',
     logo: true,
     brandStrip: true,
-    /* Sunumu yapan kisi — buradan varsayilan verebilir,
+    /* Sunumu yapan kisi - buradan varsayilan verebilir,
        uygulama icinde alanlara tiklayarak da degistirebilirsiniz. */
     presenter: {
       name: 'Fikret Şafak',

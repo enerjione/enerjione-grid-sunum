@@ -6535,3 +6535,77 @@ html[lang="en"] .pwr__shot { width: 46px; height: 52px; }
 html[lang="en"] .bat { width: 44px; height: 22px; }
 html[lang="en"] .pwr { gap: 10px; }
 html[lang="en"] .pwr__tag { line-height: 1.3; }
+
+/* ölçek grafiği: paket altındaki cihaz aralığı tek satırda kalsın */
+.gcol__gw em {
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+  font-size: clamp(8px, 0.66vw, 10.5px);
+}
+.gcol__cap em { letter-spacing: 0.08em; }
+
+/* ================================================================
+   ÖLÇEK - SUNUCU PAKETİ TABLOSU
+   ================================================================ */
+
+.caps {
+  display: flex; flex-direction: column;
+  border-radius: 16px; overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.015));
+}
+.caps__head, .caps__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) repeat(4, minmax(0, 1fr));
+  align-items: center;
+  gap: clamp(6px, 0.8vw, 14px);
+  padding-inline: clamp(14px, 1.6vw, 24px);
+}
+.caps__head {
+  padding-block: clamp(12px, 1.5vh, 18px) clamp(10px, 1.3vh, 16px);
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.caps__th {
+  text-align: center;
+  font-size: clamp(9.5px, 0.78vw, 12.5px); letter-spacing: 0.16em; font-weight: 800;
+  color: var(--ink);
+}
+.caps__th.is-top { color: var(--accent-2); }
+
+.caps__row {
+  padding-block: clamp(11px, 1.5vh, 17px);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  animation: ringIn 0.7s var(--ease) both;
+  animation-delay: calc(0.25s + var(--i, 0) * 0.1s);
+}
+.caps__head + .caps__row { border-top: 0; }
+
+.caps__rk {
+  font-size: clamp(9px, 0.72vw, 11.5px); letter-spacing: 0.1em; font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(226, 236, 255, 0.55);
+}
+.caps__cell {
+  text-align: center;
+  font-size: clamp(11.5px, 0.96vw, 16px); font-weight: 600;
+  color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.caps__cell.is-top { color: var(--accent-2); font-weight: 800; }
+
+/* ilk satır: bağlantı noktası - asıl kapasite rakamı büyük */
+.caps__head + .caps__row .caps__cell { font-size: clamp(16px, 1.4vw, 24px); font-weight: 800; }
+.caps__head + .caps__row .caps__rk { color: var(--ink); }
+
+.caps__note {
+  display: block;
+  margin-top: clamp(8px, 1.2vh, 14px);
+  font-size: clamp(9.5px, 0.74vw, 12px);
+  color: rgba(226, 236, 255, 0.45);
+}
+
+@media (max-width: 1240px) {
+  .caps__head, .caps__row { padding-inline: 12px; gap: 6px; }
+  .caps__cell { font-size: 11px; }
+  .caps__head + .caps__row .caps__cell { font-size: 15px; }
+}

@@ -7,7 +7,7 @@ import { Moon, Zap, Send, BatteryCharging, Sun } from 'lucide-react'
    Üst: uyku / uyanma döngüsü. Tarama çizgisi soldan sağa süzülür,
         üzerinden geçtiği olay parlar.
    Orta: durum şeridi (semboller ile)
-   Alt : iki ürünün besleme şekli — hattan şarj ve güneş paneli
+   Alt : iki ürünün besleme şekli - hattan şarj ve güneş paneli
    ================================================================== */
 
 const CYCLE = 11

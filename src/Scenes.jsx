@@ -2,7 +2,7 @@ import { deepT, t as t18 } from './i18n'
 import { useMemo } from 'react'
 
 /* ==================================================================
-   1) PARALLAX ZEMİN — ekran ve hub slaytlarının arkasında akan alan
+   1) PARALLAX ZEMİN - ekran ve hub slaytlarının arkasında akan alan
    ================================================================== */
 
 function mulberry32(a) {
@@ -73,7 +73,7 @@ export function ParticleField() {
 }
 
 /* ==================================================================
-   2) 3B MONİTÖR — uygulama ekran görüntüsü
+   2) 3B MONİTÖR - uygulama ekran görüntüsü
    ================================================================== */
 
 export function DeviceScreen({ src, portrait }) {
