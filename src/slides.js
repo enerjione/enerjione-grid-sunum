@@ -284,7 +284,7 @@ export const slides = [
     align: 'bottom',
     focus: { x: 50, y: 42, zoom: 1.04, at: { x: 50, y: 40 } },
     eyebrow: 'ARIZA SINIFLANDIRMA',
-    headline: 'Her arıza aynı değildir;\nsistem tipini de ayırt eder.',
+    headline: 'Kalıcı mı, geçici mi:\nsistem ayırt eder.',
     body: 'Kalıcı ve geçici arızalar, faz-faz ile faz-toprak arızaları ayrı sınıflandırılır.',
     pairs: [
       {
@@ -336,7 +336,7 @@ export const slides = [
     num: '01',
     align: 'screen',
     eyebrow: 'ARIZA KONUMLANDIRMA',
-    headline: 'Arıza noktasını tahmin etmek yerine arıza bölgesini görün.',
+    headline: 'Arıza bölgesi iki direk\narasına kadar daralır.',
     body: 'Hat üzerindeki son arıza algılayan nokta ile ilk algılamayan nokta birlikte değerlendirilir; aranacak kesim daraltılarak ekip hedefli müdahale eder.',
     items: [
       { icon: 'Crosshair', title: 'KONUMLANDIRMA', text: 'İki direk arasına kadar daraltılmış arıza bölgesi' },
@@ -436,7 +436,7 @@ export const slides = [
     num: '07',
     align: 'screen',
     eyebrow: 'MERKEZİ ALARM YÖNETİMİ',
-    headline: 'Alarmı görmekten öte, müdahale sürecini yönetin.',
+    headline: 'Alarmdan kapanışa\nkadar tek kayıt.',
     body: 'Öncelik, durum, sorumlu kullanıcı, süre, yorum ve tekrar sıklığı tek alarm kaydı altında izlenir; hiçbir işlem görünmez kalmaz.',
     steps: ['Alarm oluşur', 'Operatör onaylar', 'Sorumlu atanır', 'Müdahale kaydedilir', 'Olay geçmişe alınır'],
   },
@@ -572,7 +572,7 @@ export const slides = [
     num: '16',
     align: 'panel',
     eyebrow: 'SİBER GÜVENLİK',
-    headline: 'Kritik altyapıya yakışan\ngüvenlik yaklaşımı.',
+    headline: 'Veri dışarı çıkmaz,\niletim şifreli.',
     body: 'Sistem müşterinin kendi altyapısında çalışır; veri dışarı çıkmaz. Saha ile merkez arasındaki iletişim şifrelidir, erişim rol bazlıdır ve her işlem denetlenebilir kayıt altına alınır.',
     items: [
       { icon: 'LockKeyhole', title: 'UÇTAN UCA ŞİFRELEME', text: 'Cihazdan merkeze kadar korunan iletim' },
@@ -588,7 +588,6 @@ export const slides = [
     eyebrow: 'AÇIK ENTEGRASYON KATMANI',
     headline: 'Olay verisini ihtiyacınız olan yere taşıyın.',
     body: 'Tek olay kaynağı, hazır çıkışlar. SCADA telekontrolden otomasyon ve bildirim kanallarına kadar.',
-    chips: ['On-Prem', 'Gerçek zamanlı', 'Denetlenebilir', 'Rol bazlı yetki'],
   },
   {
     id: 'outro',

@@ -222,7 +222,7 @@ const EN = {
 
   /* ---------------- S7 - arıza tipi ---------------- */
   'ARIZA SINIFLANDIRMA': 'FAULT CLASSIFICATION',
-  'Her arıza aynı değildir;\nsistem tipini de ayırt eder.': 'Not all faults are alike;\nthe system tells them apart.',
+  'Kalıcı mı, geçici mi:\nsistem ayırt eder.': 'Permanent or transient:\nthe system tells them apart.',
   'Kalıcı ve geçici arızalar, faz-faz ile faz-toprak arızaları ayrı sınıflandırılır.':
     'Permanent and transient faults, and phase-to-phase versus phase-to-earth faults, are classified separately.',
   'KALICI ARIZA': 'PERMANENT FAULT',
@@ -249,7 +249,7 @@ const EN = {
 
   /* ---------------- platform ekranları ---------------- */
   'ARIZA KONUMLANDIRMA': 'FAULT LOCALIZATION',
-  'Arıza noktasını tahmin etmek yerine arıza bölgesini görün.': 'See the fault section instead of guessing the fault point.',
+  'Arıza bölgesi iki direk\narasına kadar daralır.': 'The fault section narrows\nto two poles.',
   'Hat üzerindeki son arıza algılayan nokta ile ilk algılamayan nokta birlikte değerlendirilir; aranacak kesim daraltılarak ekip hedefli müdahale eder.':
     'The last point on the line that detected the fault and the first that did not are evaluated together; the span to search narrows and the crew responds with a clear target.',
   'KONUMLANDIRMA': 'LOCALIZATION',
@@ -317,7 +317,7 @@ const EN = {
   'Alarm, olay, konfigürasyon ve rapor aynı cihazda': 'Alarms, events, configuration and reports on one device',
 
   'MERKEZİ ALARM YÖNETİMİ': 'CENTRAL ALARM MANAGEMENT',
-  'Alarmı görmekten öte, müdahale sürecini yönetin.': 'Go beyond seeing the alarm - manage the response.',
+  'Alarmdan kapanışa\nkadar tek kayıt.': 'One record from\nalarm to close-out.',
   'Öncelik, durum, sorumlu kullanıcı, süre, yorum ve tekrar sıklığı tek alarm kaydı altında izlenir; hiçbir işlem görünmez kalmaz.':
     'Priority, status, assignee, duration, comments and recurrence are tracked under a single alarm record; no action goes unseen.',
   'Alarm oluşur': 'Alarm is raised',
@@ -554,7 +554,7 @@ const EN = {
 
   /* ---------------- güvenlik ---------------- */
   'SİBER GÜVENLİK': 'CYBER SECURITY',
-  'Kritik altyapıya yakışan\ngüvenlik yaklaşımı.': 'Security worthy of\ncritical infrastructure.',
+  'Veri dışarı çıkmaz,\niletim şifreli.': 'Data never leaves;\nlinks are encrypted.',
   'Sistem müşterinin kendi altyapısında çalışır; veri dışarı çıkmaz. Saha ile merkez arasındaki iletişim şifrelidir, erişim rol bazlıdır ve her işlem denetlenebilir kayıt altına alınır.':
     'The system runs on the customer’s own infrastructure and no data leaves it. Communication between field and centre is encrypted, access is role-based and every action is written to an auditable log.',
   'UÇTAN UCA ŞİFRELEME': 'END-TO-END ENCRYPTION',

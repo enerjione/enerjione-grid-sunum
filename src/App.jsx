@@ -750,11 +750,7 @@ function Pairs({ pairs }) {
 function Eyebrow({ s }) {
   if (!s.eyebrow) return null
   return (
-    <div className="eyebrow stagger">
-      {s.num && <span className="eyebrow__num">{s.num}</span>}
-      <i />
-      {s.eyebrow}
-    </div>
+    <div className="eyebrow stagger">{s.eyebrow}</div>
   )
 }
 

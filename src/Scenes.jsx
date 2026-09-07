@@ -42,7 +42,6 @@ export function ParticleField() {
 
   return (
     <div className="field" aria-hidden="true">
-      <div className="field__grid" />
       <div className="field__glow" />
       {layers.map((l) => (
         <div className="field__depth" key={l.li} style={{ '--sp': l.speed }}>
