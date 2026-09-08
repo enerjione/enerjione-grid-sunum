@@ -1,6 +1,6 @@
 import { deepT, t as t18 } from './i18n'
 import {
-  HardHat, Cpu, UserCog, Headset, Check, Minus,
+  Cpu, UserCog, Headset, Check, Minus,
   Users, MapPinned, BellOff,
   Server, ServerCog, ArrowLeftRight, Boxes, DatabaseBackup, CircleCheck,
   Router, Plus, Infinity as InfinityIcon,
@@ -17,8 +17,8 @@ const CAPS = ['KURULUM', 'KONFİG.', 'MÜDAHALE', 'EKİP / BÖLGE', 'RAPOR', 'KU
 
 const ROLES = [
   {
-    key: 'installer', Icon: HardHat,
-    name: 'Installer', tr: 'Saha kurulum ekibi',
+    key: 'installer', Icon: ShieldCheck,
+    name: 'Sistem Yöneticisi', tr: 'Kurulum ve sistem sorumlusu',
     desc: 'Tam yetkili rol. Kurulum, konfigürasyon, ekip ve bölge tanımları dahil her işlemi yapabilir.',
     perms: [1, 1, 1, 1, 1, 1],
     all: true,

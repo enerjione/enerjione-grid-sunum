@@ -6726,7 +6726,7 @@ html[lang="en"] .pwr__tag { line-height: 1.3; }
 }
 .ring__band { background: none; }
 
-/* roller: Installer satırındaki şerit ve rol ikon kutuları */
+/* roller: tam yetkili satırdaki şerit ve rol ikon kutuları */
 .role--all::after { display: none; }
 .role__ic {
   width: auto; height: auto; padding-top: 2px;

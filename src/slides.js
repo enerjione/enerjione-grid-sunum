@@ -487,7 +487,7 @@ export const slides = [
     align: 'panel',
     eyebrow: 'ROL VE YETKİ YÖNETİMİ',
     headline: 'Herkes yalnızca\nişini ve bölgesini görür.',
-    body: 'Kurulumdan operasyona kadar her ekip kendi yetkisiyle çalışır. Kullanıcılar ekiplere, ekipler bölgelere atanır; alarm ve bildirimler yalnızca ilgili bölgenin ekibine gider. Installer rolü tüm yetkilere sahiptir.',
+    body: 'Kurulumdan operasyona kadar her ekip kendi yetkisiyle çalışır. Kullanıcılar ekiplere, ekipler bölgelere atanır; alarm ve bildirimler yalnızca ilgili bölgenin ekibine gider. Sistem Yöneticisi rolü tüm yetkilere sahiptir.',
     items: [
       { icon: 'KeyRound', title: 'ROL BAZLI ERİŞİM', text: 'Yetki dışı ekran ve işlem görünmez' },
       { icon: 'Users', title: 'EKİP VE BÖLGE', text: 'Ekipler bölgelere atanır, kapsam netleşir' },

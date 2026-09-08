@@ -361,8 +361,8 @@ const EN = {
   /* ---------------- roller ---------------- */
   'ROL VE YETKİ YÖNETİMİ': 'ROLE & PERMISSION MANAGEMENT',
   'Herkes yalnızca\nişini ve bölgesini görür.': 'Everyone sees only\ntheir own work and region.',
-  'Kurulumdan operasyona kadar her ekip kendi yetkisiyle çalışır. Kullanıcılar ekiplere, ekipler bölgelere atanır; alarm ve bildirimler yalnızca ilgili bölgenin ekibine gider. Installer rolü tüm yetkilere sahiptir.':
-    'From commissioning to operations, every team works within its own permissions. Users are assigned to teams and teams to regions; alarms and notifications reach only the crew of the region concerned. The Installer role holds every permission.',
+  'Kurulumdan operasyona kadar her ekip kendi yetkisiyle çalışır. Kullanıcılar ekiplere, ekipler bölgelere atanır; alarm ve bildirimler yalnızca ilgili bölgenin ekibine gider. Sistem Yöneticisi rolü tüm yetkilere sahiptir.':
+    'From commissioning to operations, every team works within its own permissions. Users are assigned to teams and teams to regions; alarms and notifications reach only the crew of the region concerned. The System Admin role holds every permission.',
   'ROL BAZLI ERİŞİM': 'ROLE-BASED ACCESS',
   'Yetki dışı ekran ve işlem görünmez': 'Screens and actions outside your role stay hidden',
   'EKİP VE BÖLGE': 'TEAMS & REGIONS',
@@ -372,16 +372,17 @@ const EN = {
   'DENETİM KAYDI': 'AUDIT LOG',
   'Her işlem kullanıcı ve zamanla saklanır': 'Every action is stored with user and timestamp',
   'ROL': 'ROLE',
-  'KURULUM': 'COMMISSIONING',
+  'KURULUM': 'SETUP',
   'KONFİG.': 'CONFIG.',
   'MÜDAHALE': 'RESPONSE',
   'EKİP / BÖLGE': 'TEAM / REGION',
   'RAPOR': 'REPORTS',
   'KULLANICI': 'USERS',
   'TÜM YETKİLER': 'ALL PERMISSIONS',
-  'Saha kurulum ekibi': 'Field commissioning crew',
+  'Sistem Yöneticisi': 'System Admin',
+  'Kurulum ve sistem sorumlusu': 'System owner',
   'Tam yetkili rol. Kurulum, konfigürasyon, ekip ve bölge tanımları dahil her işlemi yapabilir.':
-    'Full-permission role. Can perform every action, including commissioning, configuration and team and region definitions.',
+    'Full-permission role. Every action, including setup, configuration, teams and regions.',
   'Sistem mühendisi': 'Systems engineer',
   'Konfigürasyon, eşik değerleri, haberleşme ve entegrasyon ayarları': 'Configuration, thresholds, communications and integration settings',
   'Operasyon yöneticisi': 'Operations manager',
