@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import fs from 'node:fs'
 
 /* ==================================================================
-   ÇEVRİMDIŞI SÜRÜM — hiçbir kurulum gerektirmeden açılır
+   ÇEVRİMDIŞI SÜRÜM - hiçbir kurulum gerektirmeden açılır
 
    Amaç: index.html dosyasına çift tıklayınca Windows'ta ve Mac'te
    doğrudan tarayıcıda açılsın. Bunun için iki şey gerekiyor:
@@ -41,7 +41,7 @@ function inlineModels() {
 /* klasorun icine kisa bir kullanim notu birakir */
 function readme(outDir) {
   const metin = [
-    'ENERJIONE GRID — TANITIM SUNUMU',
+    'ENERJIONE GRID - TANITIM SUNUMU',
     '================================',
     '',
     'KURULUM GEREKTIRMEZ.',
