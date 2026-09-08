@@ -183,7 +183,7 @@ export const slides = [
       { icon: 'Wrench', title: 'YERDEN MONTAJ', text: 'Enerjili hatta, 33 mm’ye kadar iletken çapı' },
     ],
     specs: [
-      { k: 'ÖLÇÜM ARALIĞI', v: '7–1.200 A' },
+      { k: 'ÖLÇÜM ARALIĞI', v: '7-1.200 A' },
       { k: 'KISA DEVRE DAYANIMI', v: '40 kA / 1 s' },
       { k: 'HATTAN ŞARJ', v: '≥ 5 A' },
       { k: 'ÇALIŞMA SICAKLIĞI', v: '−40…+85 °C' },

@@ -441,9 +441,9 @@ const EN = {
   'Tahmini mesafe': 'Estimated distance',
   'Kesim uzunluğu': 'Section length',
   'Konum': 'Location',
-  'DEMO-3 – hat ucu': 'DEMO-3 – line end',
-  '848 m – 1,12 km (hat başından)': '848 m – 1.12 km (from line start)',
-  '848 m – 1,12 km (hat başından), 272 m’lik kesim': '848 m – 1.12 km (from line start), a 272 m section',
+  'DEMO-3 - hat ucu': 'DEMO-3 - line end',
+  '848 m - 1,12 km (hat başından)': '848 m - 1.12 km (from line start)',
+  '848 m - 1,12 km (hat başından), 272 m’lik kesim': '848 m - 1.12 km (from line start), a 272 m section',
   'Ekip yola çıktı, 20 dk içinde bölgedeyiz.': 'Crew is on the way, we will be on site in 20 minutes.',
   'EnerjiOne Grid · 1,2B görüntülenme · 10:44': 'EnerjiOne Grid · 1.2K views · 10:44',
   'kısa mesaj': 'text message',
@@ -459,8 +459,8 @@ const EN = {
     'This e-mail was sent because the “Send e-mail” option is enabled on the alarm rule.',
   'Çarşamba, 12 Ağustos': 'Wednesday, 12 August',
   'şimdi': 'now',
-  'Ankara · Direk #1 – Direk #2 arası kalıcı arıza.': 'Ankara · Permanent fault between pole #1 and pole #2.',
-  'Faz A–B': 'Phase A–B',
+  'Ankara · Direk #1 - Direk #2 arası kalıcı arıza.': 'Ankara · Permanent fault between pole #1 and pole #2.',
+  'Faz A-B': 'Phase A-B',
   'Konum ekli': 'Location attached',
   'Haritada Aç': 'Open in Map',
   'Ekibe Ata': 'Assign to Crew',
@@ -470,7 +470,7 @@ const EN = {
   'konum': 'location',
   'ölçüm': 'readings',
   'webhook tetiklendi': 'webhook triggered',
-  'Direk #1 – Direk #2': 'Pole #1 – Pole #2',
+  'Direk #1 - Direk #2': 'Pole #1 - Pole #2',
 
   /* ---------------- mobil ---------------- */
   'MOBİL UYGULAMA': 'MOBILE APP',
@@ -538,8 +538,8 @@ const EN = {
   'Opsiyonel': 'Optional',
   'Önerilir': 'Recommended',
   'Hot standby': 'Hot standby',
-  'Her bağlantı noktası bir toplayıcıdır ve 3 – 9 saha cihazı taşır.':
-    'Each connection point is one collector and carries 3 – 9 field devices.',
+  'Her bağlantı noktası bir toplayıcıdır ve 3 - 9 saha cihazı taşır.':
+    'Each connection point is one collector and carries 3 - 9 field devices.',
   'AKTİF SUNUCU': 'ACTIVE SERVER',
   'tüm trafiği karşılar': 'handles all traffic',
   'ÇALIŞIYOR': 'RUNNING',

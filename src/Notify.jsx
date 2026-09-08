@@ -79,9 +79,9 @@ function ChanMark({ id, images = {} }) {
 /* örnek arıza kaydı - gerçek bildirim biçimiyle aynı */
 const F = {
   line: 'ANKARA / BR-4',
-  span: 'Direk #1 – Direk #2',
-  between: 'DEMO-3 – hat ucu',
-  dist: '848 m – 1,12 km (hat başından), 272 m’lik kesim',
+  span: 'Direk #1 - Direk #2',
+  between: 'DEMO-3 - hat ucu',
+  dist: '848 m - 1,12 km (hat başından), 272 m’lik kesim',
   link: 'maps.google.com/?q=37.8106516,41.5668506',
   time: '12.08.2026 10:44',
 }
@@ -119,9 +119,9 @@ function Rows() {
 const MSG = [
   ['Bölge', 'Ankara'],
   ['Hat', 'BR-4'],
-  ['Arıza aralığı', 'Direk #1 – Direk #2'],
-  ['Cihazlar arası', 'DEMO-3 – hat ucu'],
-  ['Tahmini mesafe', '848 m – 1,12 km (hat başından)'],
+  ['Arıza aralığı', 'Direk #1 - Direk #2'],
+  ['Cihazlar arası', 'DEMO-3 - hat ucu'],
+  ['Tahmini mesafe', '848 m - 1,12 km (hat başından)'],
   ['Kesim uzunluğu', '272 m'],
 ]
 
@@ -264,10 +264,10 @@ function PushCard({ logo }) {
               <span className="pushc__dot" />
               HAT ARIZASI · BR-4
             </b>
-            <p>{t18('Ankara · Direk #1 – Direk #2 arası kalıcı arıza.')}</p>
+            <p>{t18('Ankara · Direk #1 - Direk #2 arası kalıcı arıza.')}</p>
             <span className="pushc__meta">
               <span>272 m</span>
-              <span>{t18('Faz A–B')}</span>
+              <span>{t18('Faz A-B')}</span>
               <span>{t18('Konum ekli')}</span>
             </span>
           </div>

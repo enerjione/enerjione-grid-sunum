@@ -100,7 +100,7 @@ const TIERS = ['PILOT', 'STANDARD', 'PRO', 'ENTERPRISE']
 
 const CAP_ROWS = [
   { k: 'Bağlantı noktası', v: ['100', '300', '500', '1.000'] },
-  { k: 'Saha cihazı',      v: ['300 – 900', '900 – 2.700', '1.500 – 4.500', '3.000 – 9.000'] },
+  { k: 'Saha cihazı',      v: ['300 - 900', '900 - 2.700', '1.500 - 4.500', '3.000 - 9.000'] },
   { k: 'Yedeklilik',       v: ['-', 'Opsiyonel', 'Önerilir', 'Hot standby'] },
 ]
 
@@ -143,7 +143,7 @@ export function ScaleDiagram() {
         </div>
 
         <span className="caps__note">
-          {t18('Her bağlantı noktası bir toplayıcıdır ve 3 – 9 saha cihazı taşır.')}
+          {t18('Her bağlantı noktası bir toplayıcıdır ve 3 - 9 saha cihazı taşır.')}
         </span>
       </div>
 
